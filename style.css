@@ -110,3 +110,6 @@ footer .social-icons a:hover {
   from { opacity: 0; transform: translateY(30px); }
   to { opacity: 1; transform: translateY(0); }
 }
+html {
+  scroll-padding-top: 80px; /* se aplica a todos los anchors */
+}
