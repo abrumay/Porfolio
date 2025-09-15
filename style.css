@@ -589,6 +589,7 @@ h2::after {
   flex-direction: column; /* mantiene h1 y p en columna */
   justify-content: center; /* centra vertical */
   align-items: center; /* centra horizontal */
+    font-family: "Segoe UI", sans-serif !important;
 
   
 }
