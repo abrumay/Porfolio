@@ -596,6 +596,7 @@ h2::after {
 .hero h1 {
   font-size: 3rem;
   animation: fadeInDown 1.2s ease;
+  font-family: "Segoe UI", sans-serif;
 }
 .hero p {
   font-size: 1.3rem;
@@ -614,8 +615,6 @@ h2::after {
   background: #5f39e6;
   color: white;
 }
-
-
 
 
 /* CARDS */
