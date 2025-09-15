@@ -1,8 +1,8 @@
 /* GENERAL */
 body {
   font-family: "Segoe UI", sans-serif;
-  background: #f1faee;
-  color: #1d3557;
+  background: #e0e5f4;
+  color: #000000;
   scroll-behavior: smooth;
 }
 
@@ -32,15 +32,15 @@ h2::after {
   background: #141212;
   backdrop-filter: blur(6px);
   transition: all 0.3s ease;
-  height: 10vh;
+  min-height: 60px;
 }
 .navbar .nav-link {
-  color: #f1faee !important;
+  color: #e0e5f4 !important;
   margin-left: 1rem;
   transition: color 0.3s ease;
 }
 .navbar .nav-link:hover {
-  color: #093ce5 !important;
+  color: #6f2fa2 !important;
 }
 
 /* HERO */
@@ -624,11 +624,13 @@ h2::after {
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   border: none;
   border-radius: 12px;
+  background-color: #f5f6fb;
 }
 .card:hover {
   transform: translateY(-8px);
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
 }
+
 
 /* FOOTER */
 footer {
@@ -647,7 +649,7 @@ footer .social-icons a {
   transition: color 0.3s ease;
 }
 footer .social-icons a:hover {
-  color: #093ce5;
+  color: #6f2fa2;
 }
 
 
@@ -679,4 +681,14 @@ html {
 #skills span {
   font-size: 0.9rem;
   font-weight: 600;
+}
+
+.section {
+  padding: 2rem 1rem; /* 2rem arriba y abajo, 1rem a los lados */
+}
+
+@media (min-width: 768px) {
+  .section {
+    padding: 2rem 4rem; /* más espacio lateral en tablet/desktop */
+  }
 }
